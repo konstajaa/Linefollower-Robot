@@ -1,0 +1,91 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+    #pane{
+        -fx-background-image: url("graphics/tausta3.jpg");
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 1920 1080;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    }
+    #autopilot{
+        -fx-background-image: url("graphics/autopilot3.png");
+        -fx-background-size: 400 360;
+        -fx-background-repeat: stretch;       
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    }
+    	.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+#start{
+	-fx-background-image: url("graphics/Start.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#stop{
+	-fx-background-image: url("graphics/Stop.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#up{
+	-fx-background-image: url("graphics/up.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#left{
+	-fx-background-image: url("graphics/left.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#right{
+	-fx-background-image: url("graphics/right.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#down{
+	-fx-background-image: url("graphics/down.png");
+	-fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
+#title{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	-fx-text-fill:white;
+	-fx-fill:white;
+	-fx-font-size: 25px;
+	-fx-padding: 5 30 5 30;
+	
+}
+#nopeus{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	-fx-text-fill:white;
+	-fx-fill:white;
+	-fx-font-size: 20px;
+	-fx-padding: 5 30 5 30;
+}
+
+#btn{
+	
+	-fx-text-fill:white;
+	-fx-font-size: 20px;
+	-fx-background-color: linear-gradient(#999999 0%, #000000 30%, #999999 90%);
+	-fx-padding: 5 30 5 30;
+
+}
